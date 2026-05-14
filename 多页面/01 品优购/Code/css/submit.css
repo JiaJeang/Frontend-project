@@ -1,0 +1,341 @@
+body {
+    background-color: #fff;
+}
+.header .logo h1 div {
+    float: left;
+    /* display: inline-block; */
+    width: 100px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 160px;
+    margin-top: -53px;
+}
+.header .search {
+    position: absolute;
+    width: 426px;
+    height: 36px;
+    top: 32px;
+    left: 773px;
+}
+
+.header .search input {
+    float: left;
+    width: 340px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.header .search button {
+    float: left;
+    width: 82px;
+    height: 32px;
+    background-color: #b1191a;
+    color: #fff;
+}
+
+.header .hetui {
+    display: inline-block;
+    margin-top: 97px;
+    margin-left: 2px;
+    font-size: 16px;
+    color: #666;
+}
+
+.dingdan {
+    height: 787px;
+    margin-top: 25px;
+    /* background-color: pink; */
+    border: 1px solid #ddd;
+}
+
+.dd_info {
+    width: 1148px;
+    height: 15px;
+    margin-top: 23px;
+    margin-left: 51px;
+    /* background-color: black; */
+    font-size: 14px;
+}
+
+.dingdan .dd_dizhi {
+    width: 1148px;
+    height: 95px;
+    margin-top: 5px;
+    margin-left: 25px;
+    /* background-color: #fff; */
+    border-bottom: 1px solid #ededed;
+    font-size: 12px;
+}
+
+.dingdan .dd_dizhi .key,
+.dingdan .pipei .key {
+    display: inline-table;
+    width: 144px;
+    height: 30px;
+    margin-left: 44px;
+    margin-top: 5px;
+    margin-right: 20px;
+    border: 2px solid #b1191a;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.dingdan .dd_dizhi .more {
+    width: 70px;
+    height: 12px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.dingdan .dd_dizhi .more a::after {
+    content: "\e91e";
+    font-family: 'icomoon';
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    width: 12px;
+    height: 12px;
+}
+
+.dingdan .pipei {
+    width: 1148px;
+    height: 68px;
+    margin-top: 18px;
+    margin-left: 25px;
+    /* background-color: #fff; */
+    border-bottom: 1px solid #ededed;
+    font-size: 12px;
+}
+
+.dingdan .pay {
+    width: 1148px;
+    height: 105px;
+    margin-left: 25px;
+    /* background-color: #fff; */
+    border-bottom: 1px solid #ededed;
+    font-size: 12px;
+}
+
+.dingdan .pay .pay_title {
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dingdan .pay .way01 {
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 55px;
+    /* background-color: #fff; */
+}
+
+.way01 div {
+    float: left;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 30px;
+}
+
+.dingdan .pay .way02 {
+    /* display: inline-block; */
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    border: 2px solid #b1191a;
+    text-align: center;
+    line-height: 30px;
+}
+
+.dingdan .pay .more {
+    float: right;
+    height: 30px;
+    margin-right: 40px;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* .dingdan .pay .more a::after {
+    content: "\e920";
+    font-family: 'icomoon';
+} */
+
+.dingdan .qingdan {
+    width: 1148px;
+    height: 324px;
+    margin-left: 25px;
+    /* background-color: #fff; */
+    border-bottom: 1px solid #ededed;
+}
+
+.dingdan .qingdan .title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    padding-top: 10px;
+    padding-left: 23px;
+}
+
+.dingdan .qingdan .way03 {
+    width: 1148px;
+    height: 101px;
+    background-color: #f4f4f4;
+    margin-top: 18px;
+}
+
+.dingdan .qingdan .way04 {
+    width: 1148px;
+    height: 52px;
+    margin-top: 18px;
+    background-color: #f4f4f4;
+}
+
+.dingdan .qingdan .way04 .tt {
+    float: left;
+    width: 144px;
+    height: 30px;
+    border: 2px solid #b1191a;
+    margin-left: 44px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.dingdan .qingdan .way04 .time {
+    float: left;
+    margin-left: 50px;
+    padding-top: 5px;
+}
+
+.way05 {
+    width: 1148px;
+    height: 153px;
+    background-color: #feedef;
+}
+
+.way05 .goods img {
+    /* width: 80px; */
+    float: left;
+    height: 80px;
+    margin-top: 15px;
+    margin-left: 61px;
+    background-color: #fff;
+
+}
+
+.way05 .goods_info {
+    float: left;
+    margin-left: 138px;
+    margin-top: 20px;
+}
+
+.way05 .goods_info .return {
+    margin-top: 20px;
+}
+
+.way05 .price {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.way05 .price span {
+    margin-right: 30px;
+}
+
+.dingdan .bottom {
+    width: 1148px;
+    height: 112px;
+    /* background-color: pink; */
+    margin-left: 25px;
+}
+
+.bottom .title {
+    padding-top: 25px;
+    padding-left: 23px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.bottom ul {
+    margin-top: 10px;
+    margin-left: 43px;
+    font-size: 12px;
+    color: #666;
+}
+
+.bottom ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+.bottom div:last-child a::after {
+    content: "\e91e";
+    font-family: 'icomoon';
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    width: 12px;
+    height: 12px;
+}
+
+.jiesuan_count {
+    height: 166px;
+    margin-top: 10px;
+    /* background-color: pink; */
+    font-size: 12px;
+}
+
+.jiesuan_count .count_item {
+    /* float: right; */
+    height: 30px;
+    line-height: 30px;
+    margin-right: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+.jiesuan_count .count_item span:first-child {
+    /* float: right; */
+    padding-left: 922px;
+}
+
+.jiesuan_count .count_item span:last-child {
+    float: right;
+    padding-right: 30px;
+}
+
+.jiesuan_count .total {
+    height: 72px;
+    margin-top: 93px;
+    background-color: #f4f4f4;
+    /* background-color: purple; */
+}
+
+.submit {
+    position: relative;
+    height: 200px;
+    margin-top: 20px;
+    /* background-color: black; */
+}
+.submit .btn{
+    position: absolute;
+    right: 33px;
+    top: 20px;
+    width: 142px;
+    height: 46px;
+    background-color: #b1191a;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 46px;
+}

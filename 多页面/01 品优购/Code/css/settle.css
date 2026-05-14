@@ -1,0 +1,397 @@
+.header .logo h1 div {
+    float: left;
+    /* display: inline-block; */
+    width: 100px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 160px;
+    margin-top: -53px;
+}
+
+.header .search {
+    position: absolute;
+    width: 426px;
+    height: 36px;
+    top: 32px;
+    left: 773px;
+}
+
+.header .search input {
+    float: left;
+    width: 340px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.header .search button {
+    float: left;
+    width: 82px;
+    height: 32px;
+    background-color: #b1191a;
+    color: #fff;
+}
+
+.caozuo {
+    height: 36px;
+    margin-top: 23px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}
+
+.caozuo div {
+    display: inline-block;
+}
+
+.caozuo input {
+    width: 13px;
+    height: 13px;
+    margin-top: 10px;
+}
+
+.caozuo div:first-of-type {
+    margin-left: 10px;
+}
+
+.caozuo div:nth-of-type(3) {
+    margin-left: 204px;
+}
+
+.caozuo div:nth-of-type(4) {
+    margin-left: 336px;
+}
+
+.caozuo div:nth-of-type(n+5) {
+    margin-left: 120px;
+}
+
+.yun {
+    height: 32px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.yun div {
+    display: inline-block;
+}
+
+.yun .pinpai {
+    margin-left: 10px;
+    background-color: #b1191a;
+    color: #fff;
+    padding: 2px 5px;
+}
+
+.yun div:nth-of-type(n+3) {
+    float: right;
+    margin-left: 20px;
+}
+
+.name_sho {
+    height: 635px;
+    margin-top: 23px;
+    /* background-color: pink; */
+    border: 1px solid #ddd;
+}
+
+.sho_item01 {
+    height: 110px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.sho_item01 div {
+    float: left;
+    /* display: inline-block; */
+    vertical-align: top;
+}
+
+/* .name_sho .sho_item01 .sho_check{
+    padding-top: 14px;
+    margin-left: 5px;
+} */
+.sho_item01 .sho_img01 {
+    margin-bottom: 14px;
+    margin-left: 18px;
+}
+
+.sho_item01 .sho_name {
+    margin-left: 10px;
+}
+
+.sho_item01 div:nth-of-type(n+4) {
+    width: 41px;
+    height: 30px;
+    margin-top: 5px;
+    white-space: nowrap;
+    /* background-color: purple; */
+    /* text-align: center; */
+    /* line-height: 30px; */
+}
+
+.sho_item01 div:nth-of-type(4) {
+    margin-left: 133px;
+}
+
+.sho_item01 div:nth-of-type(n+5) {
+    margin-left: 118px;
+}
+
+.sho_item01.gou {
+    background-color: #feedef;
+}
+
+.shoitem02 {
+    height: 203px;
+    /* background-color: #fff; */
+}
+
+.name_sho .sho_item02_hd,
+.sho_item02_hd {
+    height: 0px;
+    margin-top: 0px;
+    /* background-color: #ccc; */
+}
+
+.sho_item02_hd .sho_check {
+    width: 46px;
+    height: 20px;
+    border: 1px solid #b1191a;
+    font-size: 12px;
+    color: #b1191a;
+    text-align: center;
+    line-height: 20px;
+    border: 0;
+}
+
+.sho_item02_hd .sho_name {
+    width: 500px;
+    height: 20px;
+    /* background-color: #fff; */
+}
+
+.sho_item02_hd .sho_name i a {
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    background-color: #b1191a;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
+
+.sho_item02_hd {
+    border-bottom: 0;
+}
+
+.sho_item02_hd div:nth-of-type(3) {
+    width: 41px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 62px;
+    white-space: nowrap;
+}
+
+.sho_item02_hd div:nth-of-type(n+4) {
+    width: 41px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 118px;
+    white-space: nowrap;
+}
+
+.sho_item02 {
+    float: left;
+    height: 150px;
+    margin-top: 10px;
+    /* background-color: pink; */
+}
+
+.sho_item02 div {
+    float: left;
+}
+
+.shoitem02 .sho_item02 .sho_check input {
+    /* display: inline-block; */
+    margin-left: 10px;
+}
+
+.sho_item02 .sho_img02 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.sho_item02 .sho_name02 {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.sho_item02 .sho_gift {
+    display: block;
+    margin-top: 5px;
+    margin-left: 75px;
+    color: #666;
+    clear: both;
+}
+
+.sho_item02 div:nth-of-type(4) {
+    margin-top: 18px;
+}
+
+.shoitem03 {
+    height: 203px;
+    margin-top: 30px;
+    border: 1px solid #ddd;
+}
+
+.jiesuan_count {
+    height: 52px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    line-height: 52px;
+    padding-left: 10px;
+}
+
+.jiesuan_count div {
+    /* float: left; */
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.jiesuan_count button {
+    float: right;
+    width: 110px;
+    height: 50px;
+    background-color: #b1191a;
+    color: #fff;
+}
+
+.jiesuan_count .j div {
+    height: 25px;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.chongxin {
+    height: 70px;
+    margin-top: 20px;
+}
+
+.yichu {
+    height: 32px;
+    padding-top: 11px;
+    padding-left: 16px;
+    background-color: #fffdee;
+}
+
+.like {
+    height: 40px;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+}
+
+.like div {
+    float: left;
+    width: 87px;
+    height: 39px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+.like .like_title {
+    background-color: #b1191a;
+}
+
+.like_item {
+    height: 335px;
+}
+
+.like_item .l a {
+    position: relative;
+    float: left;
+    width: 19px;
+    height: 49px;
+    background-color: #ddd;
+    margin-top: 118px;
+}
+
+.like_item .l a::before {
+    content: '';
+    position: absolute;
+    bottom: 18px;
+    right: -2px;
+    width: 13px;
+    height: 13px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    /* background-color: pink; */
+    transform: rotate(45deg);
+}
+
+.like_item .r a {
+    position: relative;
+    float: right;
+    width: 19px;
+    height: 49px;
+    background-color: #ddd;
+    margin-top: 118px;
+}
+
+.like_item .r a::before {
+    content: '';
+    position: absolute;
+    bottom: 18px;
+    right: 5px;
+    width: 13px;
+    height: 13px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    transform: rotate(-135deg);
+}
+
+.like_item .item {
+    float: left;
+    width: 250px;
+    height: 305px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px dashed #ddd;
+}
+
+.like_item .item .like_img {
+    width: 250px;
+    height: 188px;
+    /* text-align: center; */
+    /* margin-left: 50%; */
+    /* background-color: black; */
+}
+.like_item .item .like_name {
+    /* display: inline-block; */
+    width: 204px;
+    height: 37px;
+   /* background-color: black; */
+   text-align: left;
+    margin: 0 auto;
+}
+.like_item .like_shopcar {
+    width: 125px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.like_item .item:nth-child(n+3) {
+    margin-left: 0px;
+}
