@@ -1,0 +1,609 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+/* 清除浮动 */
+.clear {
+    overflow: hidden;
+
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 100px;
+    background-color: #f3f5f7;
+}
+
+.header img {
+    float: left;
+    margin-top: 30px;
+}
+
+.nav {
+    float: left;
+    background-color: #f3f5f7;
+    width: 246px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 79px;
+}
+
+.nav ul li a {
+    font-size: 18px;
+    color: #050505;
+    float: left;
+    padding: 0 17px;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+
+.troll {
+    width: 418px;
+    height: 41px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 94px;
+    background-color: #f3f5f7;
+}
+
+.troll input {
+    float: left;
+    width: 360px;
+    height: 40px;
+    border: 2px solid #00a4ff;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.troll .img img {
+    float: left;
+    width: 54px;
+    height: 44px;
+    margin-top: 0px;
+    /* background-image: url(images/btn.png); */
+}
+
+.user {
+    float: left;
+    width: 118px;
+    height: 33px;
+    margin-top: 33px;
+    margin-left: 30px;
+}
+
+.user .img img {
+    float: left;
+    margin-top: 3px;
+}
+
+.user .name {
+    float: left;
+    padding-left: 2px;
+    color: #666;
+    font-size: 14px;
+    line-height: 33px;
+}
+
+.bannerback {
+    height: 420px;
+    background-color: #1c036c;
+    /* background-color: black; */
+}
+
+.banner {
+    /* position: relative; */
+    height: 420px;
+    background-image: url(images/banner2.png);
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+}
+
+.list {
+    float: left;
+    /* 浮动元素会在父容器内并排显示,只有都设置了浮动,
+    才能实现你想要的左右分布效果.如果只有一个浮动,
+    另一个是普通流,布局就会错乱. */
+    width: 190px;
+    height: 420px;
+    background: rgba(28, 3, 108, 0.5);
+}
+
+.list a {
+    display: block;
+    height: 46.7px;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 45px;
+    color: #fff;
+}
+
+.list a span {
+    float: right;
+    padding-right: 20px;
+}
+
+.list a:hover {
+    color: #00a4ff;
+    background-color: #fff;
+}
+
+.rightborder {
+    float: right;
+    width: 228px;
+    height: 300px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.rightborder .ti {
+    /* float: left; */
+    width: 228px;
+    height: 48px;
+    background-color: #9bceea;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 48px;
+}
+
+.rightborder .tab {
+    float: left;
+    width: 192px;
+    height: 50px;
+    margin-left: 19px;
+    margin-top: 12px;
+    background-color: #fff;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.tab .up {
+    font-size: 16px;
+    color: #4e4e4e;
+    font-weight: 700;
+}
+
+.tab .down {
+    font-size: 14px;
+    color: #a5a5a5;
+    font-weight: 700;
+}
+
+.tab:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+.rightborder .my {
+    margin-top: 200px;
+    margin-left: 14px;
+    width: 200px;
+    height: 41px;
+    border: 2px solid #00a4ff;
+    text-align: center;
+}
+
+.rightborder .my a {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 41px;
+    color: #00a4ff;
+}
+
+.my a:hover {
+    /* text-decoration:underline ; */
+    border-bottom: 2px solid #00a4ff;
+}
+
+.downnav {
+    background-color: #f3f5f7;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    /* 垂直居中 */
+    justify-content: center;
+    /*  水平居中 */
+    height: 60px;
+    box-shadow: 0px 1px 2px 0px;
+}
+
+.downnav .in {
+    width: 1140px;
+    height: 18px;
+    margin: 0 auto;
+    /* padding-top:21px; */
+    /* margin-top: 21px; */
+    background-color: #f3f5f7;
+}
+
+.downnav .in a {
+    float: left;
+    font-size: 16px;
+    line-height: 18px;
+    color: #050505;
+    /* padding: 0 17px; */
+}
+
+.downnav .in a:hover {
+    color: #00a4ff;
+    /* border-bottom: 2px solid #00a4ff; */
+}
+
+.downnav .in span {
+    float: left;
+    line-height: 18px;
+    margin: 0 36px 0 36px;
+    font-style: normal;
+}
+
+.downnav .in .right {
+    float: right;
+    color: #00a4ff;
+}
+
+.downnav .in .right:hover {
+    text-decoration: underline;
+}
+
+.padding {
+    /* position: relative; */
+    width: 1204px;
+    /* 清除浮动后不用给高度 方便后续添加内容 */
+    /* height: 595px; */
+    margin-top: 37px;
+    background-color: #f3f5f7;
+}
+
+.paddingti {
+    font-size: 20px;
+    color: #494949;
+}
+
+/* padding 1 content */
+
+.padding .content .item {
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+}
+
+.padding .content .item span {
+    position: absolute;
+    top: 5px;
+    right: -4px;
+}
+
+.padding .content .item:hover {
+    box-shadow: 10px 8px 10px -4px rgba(0, 0, 0, 0.5);
+}
+
+.item2:hover {
+    box-shadow: 10px 8px 10px -4px rgba(0, 0, 0, 0.5);
+}
+
+.item4:hover {
+    box-shadow: 10px 8px 10px -4px rgba(0, 0, 0, 0.5);
+}
+
+.five {
+    margin-right: 0px !important;
+}
+
+.padding .content .item img {
+    width: 100%;
+}
+
+.item .upbox {
+    width: 184px;
+    height: 32px;
+    background-color: #fff;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 14px;
+    color: #050505;
+}
+
+.item .downbox {
+    width: 121px;
+    height: 11px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 23px;
+    font-size: 12px;
+    color: #606060;
+}
+
+/* border */
+
+.border {
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    margin-right: 645px;
+    width: 183px;
+    height: 425px;
+    background-color: #fff;
+}
+
+/* .border ul {
+    margin-top: 27px;
+} */
+.border ul li a {
+    display: block;
+    height: 39px;
+    line-height: 39px;
+    /* margin-top: 27px; */
+    padding-left: 25px;
+    font-size: 14px;
+    color: #000;
+}
+
+.border ul li:hover {
+    color: #fff;
+    background-color: #00a4ff;
+}
+
+.border ul li a:hover {
+    color: #fff;
+    background-color: #00a4ff;
+}
+
+
+
+
+
+
+
+
+
+/* padding 2 */
+
+.padding2 {
+    width: 1209px;
+    height: 433px;
+    background-color: #f3f5f7;
+    margin-top: 38px;
+}
+
+.padding2 .navbox,
+.padding4 .navbox {
+    width: 1209px;
+    height: 30px;
+
+}
+
+.paddingti1 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+
+.padding2 .nav,
+.padding4 .nav {
+    float: left;
+    background-color: #f3f5f7;
+    width: 338px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 352px;
+    font-size: 16px;
+    color: #868686;
+}
+
+.padding2 .nav a,
+.padding4 .nav a {
+    float: left;
+    margin-right: 52px;
+}
+
+.padding2 .nav a:hover,
+.padding4 .nav a:hover {
+    color: #00a4ff;
+}
+
+.padding2 .look,
+.padding4 .look {
+    float: right;
+    margin-right: 36px;
+    margin-left: 5px;
+    font-size: 16px;
+    color: #a5a5a5;
+}
+
+.padding2 .look a:hover,
+.padding4 .look a:hover {
+    color: #00a4ff;
+}
+
+.padding2left img {
+    float: left;
+    margin-top: 11px;
+
+}
+
+.padding2up img {
+    float: left;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+
+.padding2item div,
+.padding4item div {
+    float: left;
+    width: 228px;
+    height: 270px;
+    margin-top: 23px;
+    margin-left: 15px;
+    background-color: #fff;
+}
+
+.padding2item div img,
+.padding4item div img {
+    width: 100%;
+}
+
+.item2 .upbox,
+.item4 .upbox {
+    width: 184px;
+    height: 32px;
+    background-color: #fff;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 14px;
+    color: #050505;
+}
+
+.item2 .downbox,
+.item4 .downbox {
+    width: 121px;
+    height: 11px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 23px;
+    font-size: 12px;
+    color: #606060;
+}
+
+/* padding 4 */
+.padding4 {
+    width: 1206px;
+    /* height: 309px; */
+    margin-top: 41px;
+    background-color: #f3f5f7;
+}
+
+.padding4item div {
+    margin-top: 9px !important;
+    margin-left: 10px !important;
+}
+
+
+
+/* footer */
+.footerback {
+    height: 417px;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+.footer {
+    height: 417px;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+.footerleft {
+    float: left;
+}
+
+.footer img {
+    margin-left: 18px;
+    margin-top: 33px;
+}
+
+.footer .bottom {
+    width: 426px;
+    /* height: 30px; */
+    margin-top: 25px;
+    margin-left: 18px;
+    /* background-color: #000; */
+    font-size: 12px;
+    color: #666;
+    line-height: 30px;
+}
+
+.footer .download {
+    width: 120px;
+    height: 36px;
+    margin-top: 45px;
+    margin-left: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 36px;
+    /* color: #00a4ff; */
+    border: 2px solid #00a4ff;
+}
+
+.footer .download a {
+    color: #00a4ff;
+}
+
+.footer .download a:hover {
+    text-decoration: underline;
+}
+
+.footer .links {
+    float: right;
+}
+
+.links dl {
+    float: right;
+    margin-right: 80px;
+}
+
+.links dl dt {
+    font-style: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    margin-top: 53px;
+
+}
+
+.links dl dd a {
+    font-style: 12px;
+    color: #333;
+}
+
+.links dl dd a:hover {
+    color: #00a4ff;
+    text-decoration: underline;
+}
+
+/* 固定上拉 */
+.fixedup {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, .3);
+}
+
+.fixedup img {
+    width: 50px;
+    height: 50px;
+}
+
+.fixedup {
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    margin-left: 635px;
+}
+
+.fixedup:hover {
+    background: rgba(0, 0, 0, .4);
+}

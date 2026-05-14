@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hd_nav_bg {
+    height: 34px;
+    background-color: red;
+}
+
+.hd_nav {
+    height: 34px;
+}
+
+.hd_nav ul li {
+    float: right;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.hd_nav ul li a {
+    float: right;
+    width: 65px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.hd_nav ul li:first-of-type a {
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.nav_bg {
+    height: 68px;
+    background-color: #dddcee;
+}
+
+.nav {
+    height: 68px;
+    text-align: center;
+    line-height: 68px;
+}
+
+.nav img {
+    float: left;
+    margin-top: 17px;
+}
+
+.nav ul li a {
+    float: right;
+    height: 65px;
+    color: #000;
+}
+
+.nav ul li:nth-child(n+2) a {
+    margin-right: 28px;
+}
+
+.nav ul li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.hotwrods img {
+    width: 100%;
+}
+
+.items {
+    height: 340px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.items h2 {
+    height: 50px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+
+/* 修改 .items ul 的样式 */
+.items ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* 修改 .items ul li 的样式 */
+.items ul li {
+    margin: 0 5px;
+}
+
+/* 修改 .items ul li div 或 .item 的样式 */
+.item {
+    position: relative;
+    width: 168px;
+    height: 176px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #7d7b7c;
+}
+
+/* 保留或更新图片样式 */
+.item img {
+    margin-top: 50%;
+    transform: translateY(-50%);
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+}
+
+/* 更新文字样式 */
+.item p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+}
+
+/* 移除原来的浮动样式 */
+.items ul li div {
+    float: none;
+}
+
+.jiejue {
+    height: 200px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.tongy {
+    height: 380px;
+}
+
+.tongy .hot {
+    float: left;
+}
+
+.tongy .ti {
+    float: right;
+    width: 593px;
+    height: 400px;
+    line-height: 40px;
+    /* text-align: center; */
+    margin-left: 40px;
+}
+
+.tongy .ti .ty {
+    float: left;
+    width: 113px;
+    height: 52px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    font-size: 28px;
+}
+
+.tongy .ti .tx {
+    float: left;
+    width: 593px;
+    margin-top: 23px;
+    color: #666;
+}
+
+.tongy .ti button {
+    float: left;
+    width: 88px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid red;
+    color: #666;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+.gonggao {
+    height: 380px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.g_item {
+    float: left;
+    width: 380px;
+    height: 423px;
+    font-size: 16px;
+    color: #666;
+}
+
+.g_item .gg_ti {
+    display: inline;
+    height: 50px;
+    margin-left: 7px;
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #000;
+    border-bottom: #666 2px solid;
+}
+
+.g_item .gg_tx ul li a {
+    float: left;
+    display: block;
+    height: 30px;
+    width: 380px;
+    margin-top: 20px;
+    line-height: 30px;
+    white-space: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.g_item:nth-of-type(n+2) {
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.g_item:nth-of-type(3) li:first-child {
+    margin-top: 65px;
+}
+
+.bottom_bg {
+    height: 400px;
+    background-color: #362f2f;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    color: #fff;
+}
+
+/* .bottom dl {
+    float: left;
+    margin-left: 50px; 
+} */
+
+.bottom dl dt {
+    margin-bottom: 25px;
+}
+
+.bottom dl dd a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #dddcee;
+    font-size: 14px;
+}
