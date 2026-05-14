@@ -90,10 +90,8 @@ function render() {
   `;
   }
 }
-
 // 初始渲染
 render();
-
 // 换一换
 document.querySelector('.r').addEventListener('click', (e) => {
   e.preventDefault();
