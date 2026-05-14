@@ -1,0 +1,160 @@
+.login-bg {
+    position: relative;
+    margin: 80px auto;
+    width: 1500px;
+    height: 400px;
+    background: url(../images/login-bg.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.login-box {
+    position: absolute;
+    top: 55px;
+    left: 820px;
+    width: 390px;
+    height: 320px;
+    background: #fff;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.title-wrap {
+    width: 350px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.active {
+    border-bottom: 2px solid #3a8f53;
+}
+
+/* 账号登录 */
+.yzm a {
+    width: 350px;
+    height: 10px;
+    margin-left: 240px;
+    font-size: 14px;
+    color: #3a8f53;
+}
+
+.input-wrap {
+    position: relative;
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #3a8f53;
+    margin-left: 55px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrap input {
+    height: 38px;
+    width: 280px;
+    padding-left: 55px;
+}
+
+/* 用户名密码错误提示 */
+.input-wrap span {
+    position: absolute;
+    top: 80%;
+    font-size: 12px;
+}
+
+.error {
+    color: red;
+}
+
+.right {
+    color: green;
+}
+
+
+input:hover,
+input:focus,
+input:active {
+    background-color: #fff;
+}
+
+.input-wrap i {
+    position: absolute;
+    /* 图标绝对定位 */
+    /* left: 10px; */
+    top: 50%;
+    transform: translateY(-50%);
+    /* 垂直居中 */
+    color: #999;
+    font-size: 18px;
+    height: 38px;
+    width: 39px;
+    text-align: center;
+    background-color: #ccc;
+}
+
+.ty {
+    margin-top: 20px;
+    margin-left: 55px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.ty a {
+    color: #3a8f53;
+}
+
+#login-btn {
+    width: 280px;
+    height: 40px;
+    margin-left: 55px;
+    margin-top: 15px;
+    background-color: #61a776;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-bottom {
+    margin-top: 15px;
+    /* margin-left: 50px; */
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-bottom a:hover {
+    color: #3a8f53;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+/* 二维码登录 */
+.erwei-login {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.erwei-login .img {
+    width: 175px;
+    height: 175px;
+}
+
+.erwei-login p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}

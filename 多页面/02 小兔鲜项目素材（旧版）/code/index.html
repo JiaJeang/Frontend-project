@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小兔鲜橙</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./fonts/download/iconfont.css">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <!-- 顶部导航栏 -->
+    <div class="TopNav_bg">
+        <div class="w">
+            <div class="TopNav_box">
+                <ul>
+                    <li><a href="login.html">请先登录</a></li>
+                    <li>|</li>
+                    <li><a href="register.html">免费注册</a></li>
+                    <li>|</li>
+                    <li><a href="#">我的订单</a></li>
+                    <li>|</li>
+                    <li><a href="#">会员中心</a></li>
+                    <li>|</li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li>|</li>
+                    <li><a href="#">在线客服</a></li>
+                    <li>|</li>
+                    <li><a href="#">
+                            <div class="img"></div>
+                        </a></li>
+                    <li><a href="#">手机版</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="HeadNav_bg">
+        <div class="w">
+            <ul>
+                <li><img src="./images/logo.png" alt=""></li>
+                <li><a href="index.html" class="indexActive">首页</a></li>
+                <li><a href="#">生鲜</a></li>
+                <li><a href="#">美食</a></li>
+                <li><a href="#">餐厨</a></li>
+                <li><a href="#">电器</a></li>
+                <li><a href="#">居家</a></li>
+                <li><a href="#">洗护</a></li>
+                <li><a href="#">孕婴</a></li>
+                <li><a href="#">服装</a></li>
+                <li>
+                    <div class="search">
+                        <div class="l">
+                            <label for="search">
+                                <div class="img"></div>
+                            </label>
+                            <input id="search" type="text" placeholder="搜一搜">
+                        </div>
+                        <div class="r">
+                            <a href="#">
+                                <div class="img">
+                                    <div class="num">2</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 轮播图 -->
+    <div class="show-bg">
+        <div class="w show-box">
+            <!-- <img src="./uploads/banner_1.png" alt=""> -->
+            <ul class="show-list w">
+                <li><a href="#">生鲜 水果 蔬菜</a></li>
+                <li><a href="#">美食 面点 干果</a></li>
+                <li><a href="#">电器 床品 四件套 被枕</a></li>
+                <li><a href="#">居家 奶粉 玩具 辅食</a></li>
+                <li><a href="#">洗护 洗发 洗护 美妆</a></li>
+                <li><a href="#">孕婴 奶粉 玩具</a></li>
+                <li><a href="#">服饰 女装 男装</a></li>
+                <li><a href="#">杂货 户外 图书</a></li>
+                <li><a href="#">品牌 品牌制造</a></li>
+            </ul>
+            <div class="left-arrow"></div>
+            <div class="right-arrow"></div>
+        </div>
+    </div>
+    <!-- 商品列表 -->
+    <!-- 新鲜好物 -->
+    <div class="item-wrap w">
+        <div class="title">
+            <h2>新鲜好物<span>新鲜出炉 品质靠谱</span></h2>
+            <div><a href="#">查看全部></a></div>
+        </div>
+        <div class="item-box w">
+            <div class="item">
+                <div class="img"><img src="uploads/new_goods_1.jpg"></div>
+                <div class="ti">睿米无线吸尘器F8</div>
+                <div class="price">￥899</div>
+            </div>
+            <div class="item">
+                <div class="img"><img src="uploads/new_goods_2.jpg"></div>
+                <div class="ti">智能环绕3D空调</div>
+                <div class="price">￥1299</div>
+            </div>
+            <div class="item">
+                <div class="img"><img src="uploads/new_goods_3.jpg"></div>
+                <div class="ti">广东软软糯米煲仔饭</div>
+                <div class="price">￥129</div>
+            </div>
+            <div class="item">
+                <div class="img"><img src="uploads/new_goods_4.jpg"></div>
+                <div class="ti">罗西机械智能手表</div>
+                <div class="price">￥3399</div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 人气推荐 -->
+    <div class="item-wrap w">
+        <div class="title">
+            <h2>人气推荐<span>人气爆款 不容错过</span></h2>
+            <div><a href="#">查看全部></a></div>
+        </div>
+        <div class="item-box w">
+            <div class="item white">
+                <div class="img"><img src="uploads/popular_1.jpg"></div>
+                <div class="ti">特惠推荐</div>
+                <div class="di">我猜得到 你的需要</div>
+            </div>
+            <div class="item white">
+                <div class="img"><img src="uploads/popular_2.jpg"></div>
+                <div class="ti">爆款推荐</div>
+                <div class="di">人气好物推荐</div>
+            </div>
+            <div class="item white">
+                <div class="img"><img src="uploads/popular_3.jpg"></div>
+                <div class="ti">场景使用一站买全</div>
+                <div class="di">编辑精心整理推荐</div>
+            </div>
+            <div class="item white">
+                <div class="img"><img src="uploads/popular_4.jpg"></div>
+                <div class="ti">领劵中心</div>
+                <div class="di">发现更多超值优惠卷</div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 热门品牌 -->
+    <div class="hotBrand-bg">
+        <div class="hot-box w">
+            <div class="title">
+                <h2>热门品牌<span>国际经典 正品保障</span></h2>
+                <div><a href="#">查看全部></a></div>
+            </div>
+            <div class="hot-item">
+                <div class="item">
+                    <a href="https://www.danielwellington.cn/"><img src="uploads/brand_goods_1.jpg"></a>
+                </div>
+                <div class="item">
+                    <a href="https://w3.asus.com.cn/"><img src="uploads/brand_goods_2.jpg"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.quanyou.com.cn/"><img src="uploads/brand_goods_3.jpg"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.adidas.com/us"><img src="uploads/brand_goods_4.jpg"></a>
+                </div>
+                <div class="item">
+                    <a href="https://www.seagullwatch.com/"><img src="uploads/brand_goods_5.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 生鲜 -->
+    <div class="item-wrap w add">
+        <div class="title">
+            <h2>生鲜</h2>
+            <div class="headNav">
+                <a href="#">蔬菜</a>
+                <a href="#">水果</a>
+                <a href="#">肉禽蛋</a>
+                <a href="#">海鲜</a>
+                <a href="#">水产</a>
+                <a href="#">其他</a>
+            </div>
+            <div><a href="#">查看全部></a></div>
+        </div>
+        <div class="add-box w">
+            <div class="left">
+                <img src="uploads/fresh_goods_cover.png">
+            </div>
+            <div class="right">
+                <div class="item">
+                    <div class="img"><img src="uploads/fresh_goods_1.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/fresh_goods_2.jpg"></div>
+                    <div class="name">红功夫 麻辣小龙虾1.5kg</div>
+                    <div class="ti">4-6钱/25-32只</div>
+                    <div class="tag">火锅食材</div>
+                    <div class="price">¥ 79</div>
+
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/fresh_goods_3.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 49</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/fresh_goods_4.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/fresh_goods_5.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/fresh_goods_6.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/fresh_goods_7.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 49</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/fresh_goods_8.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 49</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 服饰 -->
+    <div class="item-wrap w add">
+        <div class="title">
+            <h2>服饰</h2>
+            <div class="headNav">
+                <a href="#">蔬菜</a>
+                <a href="#">水果</a>
+                <a href="#">肉禽蛋</a>
+                <a href="#">海鲜</a>
+                <a href="#">水产</a>
+                <a href="#">其他</a>
+            </div>
+            <div><a href="#">查看全部></a></div>
+        </div>
+        <div class="add-box w">
+            <div class="left">
+                <img src="uploads/clothes_goods_cover.jpg">
+            </div>
+            <div class="right">
+                <div class="item">
+                    <div class="img"><img src="uploads/clothes_goods_1.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/clothes_goods_2.jpg"></div>
+                    <div class="name">红功夫 麻辣小龙虾1.5kg</div>
+                    <div class="ti">4-6钱/25-32只</div>
+                    <div class="tag">火锅食材</div>
+                    <div class="price">¥ 79</div>
+
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/clothes_goods_3.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 49</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/clothes_goods_4.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/clothes_goods_5.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/clothes_goods_6.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/clothes_goods_7.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 49</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/clothes_goods_8.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 49</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 餐具 -->
+    <div class="item-wrap w add">
+        <div class="title">
+            <h2>餐具</h2>
+            <div class="headNav">
+                <a href="#">蔬菜</a>
+                <a href="#">水果</a>
+                <a href="#">肉禽蛋</a>
+                <a href="#">海鲜</a>
+                <a href="#">水产</a>
+                <a href="#">其他</a>
+            </div>
+            <div><a href="#">查看全部></a></div>
+        </div>
+        <div class="add-box w">
+            <div class="left">
+                <img src="uploads/kitchen_goods_cover.jpg">
+            </div>
+            <div class="right">
+                <div class="item">
+                    <div class="img"><img src="uploads/kitchen_goods_1.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/kitchen_goods_2.jpg"></div>
+                    <div class="name">红功夫 麻辣小龙虾1.5kg</div>
+                    <div class="ti">4-6钱/25-32只</div>
+                    <div class="tag">火锅食材</div>
+                    <div class="price">¥ 79</div>
+
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/kitchen_goods_3.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 49</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/kitchen_goods_4.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/kitchen_goods_5.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/kitchen_goods_6.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/kitchen_goods_7.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 49</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/kitchen_goods_8.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 49</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 居家 -->
+    <div class="item-wrap w add">
+        <div class="title">
+            <h2>居家</h2>
+            <div class="headNav">
+                <a href="#">蔬菜</a>
+                <a href="#">水果</a>
+                <a href="#">肉禽蛋</a>
+                <a href="#">海鲜</a>
+                <a href="#">水产</a>
+                <a href="#">其他</a>
+            </div>
+            <div><a href="#">查看全部></a></div>
+        </div>
+        <div class="add-box w">
+            <div class="left">
+                <img src="uploads/home_goods_cover.jpg">
+            </div>
+            <div class="right">
+                <div class="item">
+                    <div class="img"><img src="uploads/home_goods_1.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/home_goods_2.jpg"></div>
+                    <div class="name">红功夫 麻辣小龙虾1.5kg</div>
+                    <div class="ti">4-6钱/25-32只</div>
+                    <div class="tag">火锅食材</div>
+                    <div class="price">¥ 79</div>
+
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/home_goods_3.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 49</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/home_goods_4.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/home_goods_5.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/home_goods_6.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 59</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/home_goods_7.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 49</div>
+                </div>
+                <div class="item">
+                    <div class="img"><img src="uploads/home_goods_8.jpg"></div>
+                    <div class="name">美威 智利原味三文鱼排</div>
+                    <div class="ti">240g/袋 4片装</div>
+                    <div class="tag">海鲜年货</div>
+                    <div class="price">¥ 49</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 最新专题 -->
+    <div class="new-bg">
+        <div class="item-wrap w">
+            <div class="title">
+                <h2>最新专题</h2>
+                <div><a href="#">查看全部></a></div>
+            </div>
+        </div>
+        <div class="new-item-box w">
+            <div class="new-item w">
+                <div class="item">
+                    <div class="img">
+                        <img src="uploads/topic_goods_1.jpg">
+                        <div class="price">
+                            <div class="l">
+                                <span>吃这些美食不算不辜负自己</span>
+                                <span style="font-size: 12px; color: #ccc;">餐厨起居洗护好物</span>
+                            </div>
+                            <div class="r">￥29.9起</div>
+                        </div>
+                    </div>
+                    <div class="like">
+                        <div class="heart">
+                            <span class="iconfont icon-aixin"></span>122
+                            <span class="iconfont icon-yanjing" style="margin-left: 15px;"></span>1800
+                        </div>
+                        <div class="commment"><span class="iconfont icon-liuyan"></span>246</div>
+                    </div>
+                </div>
+            </div>
+            <div class="new-item w">
+                <div class="item">
+                    <div class="img">
+                        <img src="uploads/topic_goods_2.jpg">
+                        <div class="price">
+                            <div class="l">
+                                <span>吃这些美食不算不辜负自己</span>
+                                <span style="font-size: 12px; color: #ccc;">餐厨起居洗护好物</span>
+                            </div>
+                            <div class="r">￥29.9起</div>
+                        </div>
+                    </div>
+                    <div class="like">
+                        <div class="heart">
+                            <span class="iconfont icon-aixin"></span>122
+                            <span class="iconfont icon-yanjing" style="margin-left: 15px;"></span>1800
+                        </div>
+                        <div class="commment"><span class="iconfont icon-liuyan"></span>246</div>
+                    </div>
+                </div>
+            </div>
+            <div class="new-item w">
+                <div class="item">
+                    <div class="img">
+                        <img src="uploads/topic_goods_3.jpg">
+                        <div class="price">
+                            <div class="l">
+                                <span>吃这些美食不算不辜负自己</span>
+                                <span style="font-size: 12px; color: #ccc;">餐厨起居洗护好物</span>
+                            </div>
+                            <div class="r">￥29.9起</div>
+                        </div>
+                    </div>
+                    <div class="like">
+                        <div class="heart">
+                            <span class="iconfont icon-aixin"></span>122
+                            <span class="iconfont icon-yanjing" style="margin-left: 15px;"></span>1800
+                        </div>
+                        <div class="commment"><span class="iconfont icon-liuyan"></span>246</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <div class="VX_bg">
+        <div class="VX w">
+            <div class="VX_item">
+                <div class="ti">客服服务</div>
+                <div>
+                    <a href="#">
+                        <div class="img"></div>
+                        <div>在线客服</div>
+                    </a>
+                    <a href="#">
+                        <div class="img"></div>
+                        <div>客服电话</div>
+                    </a>
+                </div>
+            </div>
+            <div class="VX_item">
+                <div class="ti">客服服务</div>
+                <div>
+                    <a href="#">
+                        <div class="img"></div>
+                        <div>在线客服</div>
+                    </a>
+                    <a href="#">
+                        <div class="img"></div>
+                        <div>客服电话</div>
+                    </a>
+                </div>
+            </div>
+            <div class="VX_item">
+                <div class="ti">客服服务</div>
+                <div class="erwei">
+                    <div><img src="./uploads/qrcode.png" alt=""></div>
+                    <div>
+                        <p>扫描二维码关注</p>
+                        <p>下载APP</p>
+                        <p>下载页面</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="VX_item">
+                <div class="ti">客服服务</div>
+                <div>
+                    <p>客服电话:400-888-8888</p>
+                    <p>客服时间:9:00-21:00</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom_bg">
+        <div class="bottom_up w">
+            <div>
+                <div></div>
+                <div>价格亲民</div>
+            </div>
+            <div>
+                <div></div>
+                <div>价格亲民</div>
+            </div>
+            <div>
+                <div></div>
+                <div>价格亲民</div>
+            </div>
+        </div>
+        <div class="bottom_down w">
+            <p>
+                关于我们
+                帮助中心
+                售后服务
+                配送与验收
+                商务合作
+                搜索推荐
+                友情链接
+            </p>
+            <p>CopyRight @ 小兔鲜儿</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

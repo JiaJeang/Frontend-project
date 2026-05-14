@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小兔鲜儿-登录</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./fonts/download/iconfont.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/login.js" defer></script>
+
+</head>
+
+<body>
+    <!-- 顶部导航栏 -->
+    <div class="TopNav_bg">
+        <div class="w">
+            <div class="TopNav_box">
+                <ul>
+                    <li><a href="login.html">请先登录</a></li>
+                    <li>|</li>
+                    <li><a href="register.html">免费注册</a></li>
+                    <li>|</li>
+                    <li><a href="#">我的订单</a></li>
+                    <li>|</li>
+                    <li><a href="#">会员中心</a></li>
+                    <li>|</li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li>|</li>
+                    <li><a href="#">在线客服</a></li>
+                    <li>|</li>
+                    <li><a href="#">
+                            <div class="img"></div>
+                        </a></li>
+                    <li><a href="#">手机版</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="HeadNav_bg">
+        <div class="w">
+            <ul>
+                <li><img src="./images/logo.png" alt=""></li>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">生鲜</a></li>
+                <li><a href="#">美食</a></li>
+                <li><a href="#">餐厨</a></li>
+                <li><a href="#">电器</a></li>
+                <li><a href="#">居家</a></li>
+                <li><a href="#">洗护</a></li>
+                <li><a href="#">孕婴</a></li>
+                <li><a href="#">服装</a></li>
+                <li>
+                    <div class="search">
+                        <div class="l">
+                            <label for="search">
+                                <div class="img"></div>
+                            </label>
+                            <input id="search" type="text" placeholder="搜一搜">
+                        </div>
+                        <div class="r">
+                            <a href="#">
+                                <div class="img">
+                                    <div class="num">2</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 登录页 -->
+    <div class="login-bg">
+        <div class="login-box">
+            <div class="title-wrap">
+                <a href="#" class="zhanghu active">账户登录</a>
+                <div style="color: #ccc;">|</div>
+                <a href="#" class="erwei">二维码登录</a>
+            </div>
+            <!-- 账户登录 -->
+            <form action="" name="zhanghuF" class="zhanghuF block">
+                <div class="yzm"><a href="#">手机验证码登录</a></div>
+                <div class="zhanghu-login">
+                    <div class="input-wrap">
+                        <label for="uname">
+                            <i class="iconfont icon-yonghu"></i>
+                        </label>
+                        <input id="uname" type="text" name="uname" placeholder="请输入用户名">
+                        <span></span>
+                    </div>
+                    <div class="input-wrap">
+                        <label for="upwd">
+                            <i class="iconfont icon-mima"></i>
+                        </label>
+                        <input id="upwd" type="password" name="upwd" placeholder="请输入密码">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="ty">
+                    <input type="checkbox" name="ty" id="ty" style="margin-right: 3px;">我已同意
+                    <a href="#">用户协议</a>和<a href="#">隐私政策</a>
+                    <!-- 新增:协议提示文本(替代alert) -->
+                    <span class="ty-tip"
+                        style="color: red; display: none; font-size: 12px; margin-left: 5px;">请同意用户协议</span>
+                </div>
+                <div class="login-btn">
+                    <!-- 移除无意义的name属性,新增disabled默认禁用(可选) -->
+                    <button type="submit" id="login-btn">登录</button>
+                </div>
+                <div class="login-bottom">
+                    <a href="#">忘记密码</a>
+                    <a href="register.html">免费注册</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- 页脚 -->
+    <div class="VX_bg">
+        <div class="VX w">
+            <div class="VX_item">
+                <div class="ti">客服服务</div>
+                <div>
+                    <a href="#">
+                        <div class="img"></div>
+                        <div>在线客服</div>
+                    </a>
+                    <a href="#">
+                        <div class="img"></div>
+                        <div>客服电话</div>
+                    </a>
+                </div>
+            </div>
+            <div class="VX_item">
+                <div class="ti">客服服务</div>
+                <div>
+                    <a href="#">
+                        <div class="img"></div>
+                        <div>在线客服</div>
+                    </a>
+                    <a href="#">
+                        <div class="img"></div>
+                        <div>客服电话</div>
+                    </a>
+                </div>
+            </div>
+            <div class="VX_item">
+                <div class="ti">客服服务</div>
+                <div class="erwei">
+                    <div><img src="./uploads/qrcode.png" alt=""></div>
+                    <div>
+                        <p>扫描二维码关注</p>
+                        <p>下载APP</p>
+                        <p>下载页面</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="VX_item">
+                <div class="ti">客服服务</div>
+                <div>
+                    <p>客服电话:400-888-8888</p>
+                    <p>客服时间:9:00-21:00</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom_bg">
+        <div class="bottom_up w">
+            <div>
+                <div></div>
+                <div>价格亲民</div>
+            </div>
+            <div>
+                <div></div>
+                <div>价格亲民</div>
+            </div>
+            <div>
+                <div></div>
+                <div>价格亲民</div>
+            </div>
+        </div>
+        <div class="bottom_down w">
+            <p>
+                关于我们
+                帮助中心
+                售后服务
+                配送与验收
+                商务合作
+                搜索推荐
+                友情链接
+            </p>
+            <p>CopyRight @ 小兔鲜儿</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
