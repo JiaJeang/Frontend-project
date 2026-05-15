@@ -3,9 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-html {
-  height: 2000px;
-}
 a {
   text-decoration: none;
   color: #222;
@@ -22,6 +19,7 @@ img {
   float: left;
 }
 .nav .left a {
+  height: 23px;
   float: left;
   margin-top: 19px;
   margin-right: 24px;
@@ -32,10 +30,12 @@ img {
 }
 .nav .right {
   float: right;
+  font-size: 13px;
 }
 .nav .right button {
+  font-size: 13px;
   margin-top: 18px;
-  margin-left: 24px;
+  margin-left: 32px;
   border: 0px;
   width: 48px;
   height: 24px;
@@ -44,7 +44,7 @@ img {
   border-radius: 6px;
 }
 .main {
-  margin: 20px auto 0;
+  margin: 10px auto 0;
   width: 800px;
 }
 .main .img {

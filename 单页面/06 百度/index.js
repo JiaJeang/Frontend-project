@@ -103,12 +103,14 @@ document.querySelector('.r').addEventListener('click', (e) => {
 const inp = document.querySelector('.inp input')
 inp.addEventListener('input', () => {
   location.href = "https://www.baidu.com";
-
 })
+// 搜索占位文本的随机
+let random = (n, m) => Math.floor(Math.random() * (m - n + 1)) + n
+inp.placeholder = data[random(0, 49)].title
 
 //更多的鼠标悬浮效果
-const more=document.querySelector('.more')
-const active=document.querySelector('.active')
+const more = document.querySelector('.more')
+const active = document.querySelector('.active')
 const moredata = [
   { name: "翻译", src: "https://pss.bdstatic.com/static/superman/img/topnav/newfanyi-da0cea8f7e.png" },
   { name: "学术", src: "https://pss.bdstatic.com/static/superman/img/topnav/newxueshuicon-a5314d5c83.png" },
@@ -120,8 +122,8 @@ const moredata = [
   { name: "音乐", src: "https://pss.bdstatic.com/static/superman/img/topnav/newyinyue-03ecd1e9b9.png" },
   { name: "橙篇", src: "https://pss.bdstatic.com/static/superman/img/topnav/chengpian-9981cd1fdb.png" }
 ];
-for(let i=0;i<moredata.length;i++){
-  active.innerHTML+=`
+for (let i = 0; i < moredata.length; i++) {
+  active.innerHTML += `
       <span>
           <div class="img">
               <img src="${moredata[i].src}"
@@ -133,7 +135,7 @@ for(let i=0;i<moredata.length;i++){
       </span>
   `
 }
-active.innerHTML+=`
+active.innerHTML += `
 <div class="all">查看全部百度产品</div>`
 
 more.addEventListener('mouseenter', () => {
