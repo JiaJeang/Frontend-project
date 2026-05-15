@@ -98,3 +98,61 @@ document.querySelector('.r').addEventListener('click', (e) => {
   currentPage = (currentPage + 1) % TOTAL_PAGES;
   render();
 });
+
+//输入框跳转
+const inp = document.querySelector('.inp input')
+inp.addEventListener('input', () => {
+  location.href = "https://www.baidu.com";
+
+})
+
+//更多的鼠标悬浮效果
+const more=document.querySelector('.more')
+const active=document.querySelector('.active')
+const moredata = [
+  { name: "翻译", src: "https://pss.bdstatic.com/static/superman/img/topnav/newfanyi-da0cea8f7e.png" },
+  { name: "学术", src: "https://pss.bdstatic.com/static/superman/img/topnav/newxueshuicon-a5314d5c83.png" },
+  { name: "百科", src: "https://pss.bdstatic.com/static/superman/img/topnav/newbaike-889054f349.png" },
+  { name: "知道", src: "https://pss.bdstatic.com/static/superman/img/topnav/newzhidao-da1cf444b0.png" },
+  { name: "健康", src: "https://pss.bdstatic.com/static/superman/img/topnav/newjiankang-f03b804b4b.png" },
+  { name: "营销推广", src: "https://pss.bdstatic.com/static/superman/img/topnav/yingxiaoicon-612169cc36.png" },
+  { name: "直播", src: "https://pss.bdstatic.com/static/superman/img/topnav/newzhibo-a6a0831ecd.png" },
+  { name: "音乐", src: "https://pss.bdstatic.com/static/superman/img/topnav/newyinyue-03ecd1e9b9.png" },
+  { name: "橙篇", src: "https://pss.bdstatic.com/static/superman/img/topnav/chengpian-9981cd1fdb.png" }
+];
+for(let i=0;i<moredata.length;i++){
+  active.innerHTML+=`
+      <span>
+          <div class="img">
+              <img src="${moredata[i].src}"
+                  alt="">
+          </div>
+          <div class="tex">
+              ${moredata[i].name}
+          </div>
+      </span>
+  `
+}
+active.innerHTML+=`
+<div class="all">查看全部百度产品</div>`
+
+more.addEventListener('mouseenter', () => {
+  active.classList.add('show')
+})
+more.addEventListener('mouseleave', () => {
+  setTimeout(() => {
+    if (!active.matches(':hover')) {
+      active.classList.remove('show')
+    }
+  }, 100)
+})
+active.addEventListener('mouseenter', () => {
+  active.classList.add('show')
+})
+active.addEventListener('mouseleave', () => {
+  setTimeout(() => {
+    if (!more.matches(':hover')) {
+      active.classList.remove('show')
+    }
+  }, 100)
+})
