@@ -54,7 +54,7 @@ const data = [
 
 const list = document.querySelector('.list');
 const PAGE_SIZE = 10;
-const TOTAL_PAGES = Math.ceil(data.length / PAGE_SIZE);
+const MOD = Math.ceil(data.length / PAGE_SIZE);
 let currentPage = 0;
 
 function render() {
@@ -81,13 +81,14 @@ function render() {
     } else if (data[i].tag === '新') {
       tagClass += ' tag-new';
     }
-    list.innerHTML += `
-    <a href="#">
-      <span class="${indClass}">${indContent}</span>
-      <span class="tex">${data[i].title}</span>
-      <span class="${tagClass}">${tagText}</span>
-    </a>
-  `;
+    list.innerHTML += 
+    `
+      <a href="#">
+        <span class="${indClass}">${indContent}</span>
+        <span class="tex">${data[i].title}</span>
+        <span class="${tagClass}">${tagText}</span>
+      </a>
+    `
   }
 }
 // 初始渲染
@@ -95,7 +96,7 @@ render();
 // 换一换
 document.querySelector('.r').addEventListener('click', (e) => {
   e.preventDefault();
-  currentPage = (currentPage + 1) % TOTAL_PAGES;
+  currentPage = (currentPage + 1) % MOD;
   render();
 });
 
@@ -123,7 +124,8 @@ const moredata = [
   { name: "橙篇", src: "https://pss.bdstatic.com/static/superman/img/topnav/chengpian-9981cd1fdb.png" }
 ];
 for (let i = 0; i < moredata.length; i++) {
-  active.innerHTML += `
+  active.innerHTML += 
+  `
       <span>
           <div class="img">
               <img src="${moredata[i].src}"
@@ -135,8 +137,7 @@ for (let i = 0; i < moredata.length; i++) {
       </span>
   `
 }
-active.innerHTML += `
-<div class="all">查看全部百度产品</div>`
+active.innerHTML += `<div class="all">查看全部百度产品</div>`
 
 more.addEventListener('mouseenter', () => {
   active.classList.add('show')
