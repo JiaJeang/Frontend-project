@@ -1,0 +1,84 @@
+{
+  "goods": [
+    {
+      "id": 1,
+      "name": "华为 Mate 60 Pro",
+      "price": 6999,
+      "category": "手机",
+      "stock": 120,
+      "imgUrl": "https://picsum.photos/300/300?random=1"
+    },
+    {
+      "id": 2,
+      "name": "小米 14",
+      "price": 4299,
+      "category": "手机",
+      "stock": 200,
+      "imgUrl": "https://picsum.photos/300/300?random=2"
+    },
+    {
+      "id": 3,
+      "name": "iPad Air 6",
+      "price": 4799,
+      "category": "平板",
+      "stock": 86,
+      "imgUrl": "https://picsum.photos/300/300?random=3"
+    },
+    {
+      "id": 4,
+      "name": "机械键盘 青轴",
+      "price": 299,
+      "category": "数码配件",
+      "stock": 300,
+      "imgUrl": "https://picsum.photos/300/300?random=4"
+    },
+    {
+      "id": 5,
+      "name": "无线蓝牙耳机",
+      "price": 199,
+      "category": "数码配件",
+      "stock": 500,
+      "imgUrl": "https://picsum.photos/300/300?random=5"
+    },
+    {
+      "id": 6,
+      "name": "27英寸 2K显示器",
+      "price": 1299,
+      "category": "电脑硬件",
+      "stock": 68,
+      "imgUrl": "https://picsum.photos/300/300?random=6"
+    },
+    {
+      "id": 7,
+      "name": "游戏鼠标 有线",
+      "price": 129,
+      "category": "数码配件",
+      "stock": 420,
+      "imgUrl": "https://picsum.photos/300/300?random=7"
+    },
+    {
+      "id": 8,
+      "name": "轻薄笔记本电脑",
+      "price": 5699,
+      "category": "电脑",
+      "stock": 45,
+      "imgUrl": "https://picsum.photos/300/300?random=8"
+    },
+    {
+      "id": 9,
+      "name": "智能手表",
+      "price": 899,
+      "category": "智能穿戴",
+      "stock": 150,
+      "imgUrl": "https://picsum.photos/300/300?random=9"
+    },
+    {
+      "id": 10,
+      "name": "移动硬盘 1TB",
+      "price": 399,
+      "category": "存储设备",
+      "stock": 92,
+      "imgUrl": "https://picsum.photos/300/300?random=10"
+    }
+  ]
+}

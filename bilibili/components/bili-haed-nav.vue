@@ -110,14 +110,15 @@ function leave() {
       <ul class="right">
         <li>
           <a href="">
-            <div
-              class="login"
-              @mouseenter="enter"
-              @mouseleave="leave"
-            >
+            <div class="login" @mouseenter="enter" @mouseleave="leave">
               登录
               <Transition name="fade">
-                <div class="show-login" v-if="show" @mouseenter="enter" @mouseleave="leave">
+                <div
+                  class="show-login"
+                  v-if="show"
+                  @mouseenter="enter"
+                  @mouseleave="leave"
+                >
                   <p>登录后你可以:</p>
                   <ul class="tex">
                     <span class="item">
@@ -138,14 +139,16 @@ function leave() {
                     >
                   </ul>
                   <div class="qLogin">立即登录</div>
-                  <div class="bottom">首次使用?&nbsp;&nbsp;<span>点我注册</span></div>
+                  <div class="bottom">
+                    首次使用?&nbsp;&nbsp;<span>点我注册</span>
+                  </div>
                 </div>
               </Transition>
             </div>
           </a>
         </li>
         <li>
-          <a href=""
+          <a href="https://account.bilibili.com/big?spm_id_from=333.1007.0.0"
             ><img src="@/assets/vip.svg" alt="" /><span>大会员</span></a
           >
         </li>
@@ -186,14 +189,27 @@ function leave() {
 </template>
 
 <style scoped lang="less">
+// 登录显示过渡效果
 .show-login.fade-enter-active,
 .show-login.fade-leave-active {
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
-
 .show-login.fade-enter-from,
 .show-login.fade-leave-to {
   opacity: 0;
   transform: translateX(-50%) translateY(-10px);
 }
+
+// 链接抖动动画效果
+@keyframes shake {
+  0% {transform: translateY(0);}
+  25% {transform: translateY(-4px);}
+  50% {transform: translateY(-2px);}
+  100% {transform: translateY(0);}
+}
+.left li a:hover,
+.right li a:hover img {
+  animation: shake 0.4s ease;
+}
+
 </style>
